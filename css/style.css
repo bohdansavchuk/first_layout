@@ -1,0 +1,206 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+
+.wrap{
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+header {
+    background: red;
+    width: 100%; 
+    overflow: hidden;
+    padding:15px;
+    border: 1px solid;
+}
+main{
+    background: blue;
+    width: 100%;
+        
+}
+footer{
+    width: 100%;
+    background: green;
+    padding: 15px;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0;
+}
+header .logo, footer .logo{
+    max-width: 100px;
+    width: 100%;
+    float:left;
+}
+
+header ul{
+    float:right;
+    margin: 70px 0px;
+    background: white;
+    }
+header li{
+    display: inline;
+    padding: 5px;
+}
+.content{
+    text-align: justify;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px 240px 20px;
+}
+.footer_row{
+/*    width: 400px;*/
+    background: yellow;
+    overflow: hidden;
+    text-align: center;
+}
+.footer_row:nth-child(2){
+    background: red;
+}
+
+.nav{
+    margin: 20px 100px;
+    float:left;
+}
+.map{
+    float:right;
+}
+footer ul{
+    display: inline-block;
+    margin: 20px;
+}
+footer .logo{
+    margin: 40px;
+}
+/*
+.logo {
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    left: 10px;
+    position: relative;
+    
+}
+.menu{
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    position: relative;
+    float: right;
+    background: blue;
+}
+.lorem{
+    position: relative;
+*/
+}
+/*
+[class*="class-1"]{
+    width: 100px;
+    height: 100px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+*/
+
+/*
+.class-11{
+    background-color: darkgreen;
+    width: 400px;
+    height: 200px;
+    top: 100px;
+    left: 100px;
+    position: relative;
+}
+
+.class-12{
+    height: 75px;
+    width: 75px;
+    top: 40px;
+    right: 94px;
+    background-color: grey;
+    position: absolute;
+    
+}
+.class-15{
+    height: 75px;
+    width: 75px;
+    top: 40px;
+    left: 124px;
+    background-color: red;
+    position: absolute;
+   
+}
+.class-16{
+    height: 110px;
+    width: 60px;
+    top: 80px;
+    left: 20px;
+    background-color: blue;
+    position: absolute;
+   
+}
+.class-17{
+    height: 1px;
+    width: 75px;
+    top: 80px;
+    left: 124px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+   
+}
+
+.class-18{
+    height: 75px;
+    width: 1px;
+    top: 40px;
+    left: 160px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+}
+.class-19{
+    height: 1px;
+    width: 75px;
+    top: 78px;
+    left: 231px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+}
+.class-20{
+    height: 75px;
+    width: 1px;
+    top: 40px;
+    left: 267px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+}
+.class-21{
+    height: 5px;
+    width: 5px;
+    top: 145px;
+    left: 65px;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+}
+
+.class-5{
+    background-color: firebrick;
+    width: 200px;
+    height: 200px;
+    top: 50px;
+    left: 50px;
+    position: relative;
+}*/
